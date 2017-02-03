@@ -1,0 +1,30 @@
+{
+  "name" : "NyKo24/VPMMSUtilisateurClient",
+  "description" : "Client pour le micro service utilisateur de VPM Racing",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Nicolas BORDES",
+    "email" : "nicolasbordes@me.com"
+  }],
+  "keywords" : [
+    "rest", "micro-service"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "VPM\\MS\\UtilisateurBundle" : ""
+    }
+  },
+  "target-dir" : "VPM/MS/UtilisateurBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "some_version-dev"
+    }
+  }
+}
