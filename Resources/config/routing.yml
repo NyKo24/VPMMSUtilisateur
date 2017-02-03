@@ -1,0 +1,3 @@
+vpmms_utilisateur_homepage:
+    path:     /
+    defaults: { _controller: VPMMSUtilisateurBundle:Default:index }
